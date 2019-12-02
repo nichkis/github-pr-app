@@ -3,7 +3,7 @@
 Install the dependencies and then execute `npm start` for interactive command line experience.
 For testing, execute `npm test`.
 
-Example output for the `lodash/lodash` owner and repository...
+Example input/output for the `lodash/lodash` owner and repository...
 
 ```
 Account name: lodash

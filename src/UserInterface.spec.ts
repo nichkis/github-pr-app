@@ -1,5 +1,7 @@
 import { awaitableQuestion } from './UserInterface';
 
-describe('getPullRequests function', () => {
-  // tests?
+describe('awaitableQuestion function', () => {
+  it('should prompt user with a quesdtion', () => {
+
+  });
 });
