@@ -1,7 +1,7 @@
 # github-pr-app
 
 Install the dependencies and then execute `npm start` for interactive command line experience.
-For testing execute `npm test`.
+For testing, execute `npm test`.
 
 Example output for the `lodash/lodash` owner and repository...
 
@@ -24,3 +24,9 @@ Repo name: lodash
 ]
 Account name:
 ```
+
+Tested and working for node version `13.2.0`.
+
+Issues with repositories rate limiting as obtaining pull requests along with comments and commits
+per pull request hits the 5000 per hour limit.  e.g. `apache` (owner) `spark` (repository) was an
+issue.   
