@@ -43,6 +43,5 @@ describe('getPullRequests function', () => {
     // Assert
     expect(pulls).to.be.an('array');
     expect(pulls.length).to.eql(1);
-    expect(pulls[0]).to.have
   });
 });
